@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #search {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .quote {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 10px;
+        }
+
+        .quote-text {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+
+        .quote-author {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Quote Search App</h1>
+    <input type="text" id="search" placeholder="Enter filter text here..." />
+    <div id="results">
+        <div class="loading">Loading quotes...</div>
+    </div>
+    <script src='./main.js'></script>
+</body>
+
+</html>

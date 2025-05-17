@@ -11,4 +11,4 @@ A simple JavaScript application that fetches quotes from the [DummyJSON API](htt
 ## How to Use 🚀
 1. Clone the repository:
    ```bash
-   git clone https://github.com/malhati/quote-search-filter.git
+   git clone https://github.com/malhati/Quote-Search.git
